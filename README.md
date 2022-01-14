@@ -1,3 +1,3 @@
-# code-quality
+# eslint-config
 
-Stuff for maintaining code quality: eslint, prettier, etc.
+Personal eslint configuration

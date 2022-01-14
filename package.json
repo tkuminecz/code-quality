@@ -1,7 +1,7 @@
 {
-  "name": "@tkuminecz/code-quality",
+  "name": "@tkuminecz/eslint-config",
   "version": "1.0.0",
-  "description": "Stuff for maintainig code quality",
+  "description": "Personal eslint configuration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +16,16 @@
     "url": "https://github.com/tkuminecz/eslint-config/issues"
   },
   "homepage": "https://github.com/tkuminecz/eslint-config#readme",
-  "devDependencies": {
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0"
+  "files": [
+    "eslint/",
+    "prettier"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "~5.9.1",
+    "@typescript-eslint/parser": "~5.9.1",
+    "eslint": "~8.6.0",
+    "eslint-config-prettier": "~8.3.0",
+    "eslint-plugin-prettier": "~4.0.0",
+    "typescript": "*"
   }
 }
